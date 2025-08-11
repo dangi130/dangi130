@@ -1,0 +1,77 @@
+footer{
+    height: 300px;
+    background-color: rgb(8, 7, 7);
+}
+img{
+    
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+#logo{
+    display: flex;
+    margin-left: 350px;  
+}
+.footer-container {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #080707;
+    padding: 30px 20px;
+    margin-left: 50px   ;
+  }
+  
+  .social-networks {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-networks a {
+    display: inline-block;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 10px;
+    transition: 0.3s ease;
+  }
+  
+  /* Brand Colors */
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .instagram {
+    background: radial-gradient(circle at 30% 30%, #fdf497 0%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  }
+  
+  .linkedin {
+    background-color: #0077b5;
+  }
+  
+  .social-networks a:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
+  /* Buttons */
+  .contact-btn, .feedback-btn {
+    background-color: #e000e0;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .contact-btn:hover, .feedback-btn:hover {
+    opacity: 0.9;
+  }
